@@ -22,7 +22,7 @@ El sistema se divide en tres módulos especializados que deben ejecutarse secuen
 
 * Acciones: Elimina saltos de línea arbitrarios, reconstruye palabras cortadas por guiones al final de página y elimina cabeceras/numeración de página, todo esto manteniendo el léxico     original.
 
-**3. Refinamiento Estilístico (refinador.py)**
+**3. Refinamiento Estilístico (Refinador.py)**
 
 * Tecnología: DeepSeek API (deepseek-chat).
 
