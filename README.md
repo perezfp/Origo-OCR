@@ -8,7 +8,7 @@ El sistema se divide en tres módulos especializados que deben ejecutarse secuen
 
 **1. Extracción (OCR.PY)**
 
-Tecnología: pytesseract + pdf2image.
+* Tecnología: pytesseract + pdf2image.
 
 * Función: Convierte las páginas de un PDF en imágenes y realiza el reconocimiento óptico de caracteres inicial.
 
@@ -16,16 +16,16 @@ Tecnología: pytesseract + pdf2image.
 
 **2. Corrección Ortotipográfica (Corrector.py)**
 
-  Tecnología: OpenAI API (gpt-4o-mini).
+* Tecnología: OpenAI API (gpt-4o-mini).
 
-  Función: Limpieza inteligente del ruido del OCR.
+* Función: Limpieza inteligente del ruido del OCR.
 
-  Acciones: Elimina saltos de línea arbitrarios, reconstruye palabras cortadas por guiones al final de página y elimina cabeceras/numeración de página, todo esto manteniendo el léxico     original.
+* Acciones: Elimina saltos de línea arbitrarios, reconstruye palabras cortadas por guiones al final de página y elimina cabeceras/numeración de página, todo esto manteniendo el léxico     original.
 
 **3. Refinamiento Estilístico (refinador.py)**
 
-  Tecnología: DeepSeek API (deepseek-chat).
+* Tecnología: DeepSeek API (deepseek-chat).
 
-  Función: Actúa como un editor experto en textos históricos.
+* Función: Actúa como un editor experto en textos históricos.
 
-  Acciones: Mejora la fluidez y coherencia del texto corregido, asegurando que la estructura de los párrafos sea natural sin alterar el significado o la esencia del autor original.
+* Acciones: Mejora la fluidez y coherencia del texto corregido, asegurando que la estructura de los párrafos sea natural sin alterar el significado o la esencia del autor original.
