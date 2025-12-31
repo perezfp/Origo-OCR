@@ -29,3 +29,21 @@ El sistema se divide en tres módulos especializados que deben ejecutarse secuen
 * Función: Actúa como un editor experto en textos históricos.
 
 * Acciones: Mejora la fluidez y coherencia del texto corregido, asegurando que la estructura de los párrafos sea natural sin alterar el significado o la esencia del autor original.
+
+## Características Principales
+
+* Integración Multi-LLM: Aprovecha lo mejor de OpenAI para corrección estructural y DeepSeek para refinamiento de estilo.
+
+* Procesamiento por Bloques: Maneja textos extensos dividiéndolos en fragmentos para evitar límites de tokens y asegurar consistencia.
+
+* Preservación Histórica: Configurado específicamente para respetar el lenguaje y contexto de obras antiguas (como se evidencia en las pruebas con "Sabor y Saber de la Cocina Chilena").
+
+## Requisitos de Configuración
+
+Para que el pipeline funcione, asegúrate de configurar las variables de entorno o las API Keys en los archivos correspondientes:
+
+* Tesseract OCR instalado en el sistema.
+
+* OpenAI API Key (en Corrector.py).
+
+* DeepSeek API Key (en refinador.py).
