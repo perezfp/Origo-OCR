@@ -36,7 +36,7 @@ El sistema se divide en tres módulos especializados que deben ejecutarse secuen
 
 * Procesamiento por Bloques: Maneja textos extensos dividiéndolos en fragmentos para evitar límites de tokens y asegurar consistencia.
 
-* Preservación Histórica: Configurado específicamente para respetar el lenguaje y contexto de obras antiguas (como se evidencia en las pruebas con "Sabor y Saber de la Cocina Chilena").
+* Preservación Histórica: Configurado específicamente para respetar el lenguaje y contexto de obras antiguas de habla hispana. 
 
 ## Requisitos de Configuración
 
